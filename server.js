@@ -50,6 +50,6 @@ var log = function() {
     console.log('app listening on port 4005');
 }
 
-app.listen(process.env.PORT || 4005, log);
+app.listen(process.env.PORT || 3000, log);
 
 module.exports = app;
