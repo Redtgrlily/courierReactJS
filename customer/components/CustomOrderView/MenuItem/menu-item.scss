@@ -1,0 +1,57 @@
+.drink-item {
+    overflow: hidden;
+    margin-bottom: 1.2em;
+    border: 1px solid #E4E4E4;
+    background: #fff;
+    padding: 0.5em 0em 0.5em 0em;
+    border-radius: 3px;
+    box-shadow: #999999 0px 1px;
+    
+    select {
+        margin-right: 0.5em;
+    }
+}
+
+.item-top-row {
+    margin-bottom: 0.75em;
+    width: 100%;
+    display: inline-block;
+}
+
+.item-name-wrap {
+    margin-right: 0.5em;
+    display: inline-block;
+    font-size: 1.2em;
+    width: 100%;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #E4E4E4;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    .item-name {
+        float: left;
+        color: #3E474F;
+    }
+}
+
+.item-options {
+    width: 82%;
+    display: inline-block;
+    padding-left: 0.5em;
+}
+
+.item-other-options {
+    font-size: 0.85em;
+    padding-left: 0.5em;
+    color: #888888;
+}
+
+.item-price {
+    display: inline-block;
+    width: 5%;
+    font-size: 1em;
+    padding-right: 0.75em;
+    padding-top: 5px;
+    color: #3E474F;
+}

@@ -1,0 +1,94 @@
+.enter-payment-info-container {
+    h2 {
+        color: #333;
+    }
+}
+
+.payment-info-section {
+    padding: 0 0 1em 0;
+
+    p {
+        margin: 0.5em 0 0.5em 0;
+        color: #333;
+    }
+}
+
+.payment-name, .payment-card-number {
+    input {
+        width: 18em;
+        padding: 0.5em;
+        display: block;
+        border-radius: 3px;
+        border: 1px solid #A6A6A6;
+
+        &:focus {
+            border: 2px solid #3FB083;
+        }
+    }
+
+}
+
+.payment-month-year {
+    select {
+        display: inline-block;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding: 0.5em;
+        border-radius: 3px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .payment-month {
+        background: url('/img/down-arrow.png') no-repeat #F8F8F8;
+        background-position: 85% 55%;
+        width: 6em;
+        margin-right: 0.5em;
+    }
+
+    .payment-year {
+        background: url('/img/down-arrow.png') no-repeat #F8F8F8;
+        background-position: 85% 55%;
+        width: 4.5em;
+    }
+}
+
+.payment-csv {
+    input {
+        width: 2em;
+        padding: 0.5em;
+        border: 1px solid #A6A6A6;
+        border-radius: 3px;
+
+        &:focus {
+            border: 2px solid #3FB083;
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .enter-payment-info-container {
+        width: 28em;
+        margin: 0 auto 1em auto;
+    }
+
+}
+
+@media only screen and (max-width: 599px) {
+    .enter-payment-info-container {
+        width: 90%;
+        margin: 0 auto 1em auto;
+    }
+
+}
+
+.enter-payment-info-container {
+    padding: 0.75em;
+    border: 1px solid #E4E4E4;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: #999999 0px 1px;
+}

@@ -1,0 +1,25 @@
+.ba-order-details-container {
+    padding: 0.2em 0 0.75em 0;
+    border-top: 1px dotted #B5BEC2;
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+
+    .item-name {
+        padding-right: 1em;
+        padding-left: 1em;
+        color: darken(#40B284, 15%);
+        font-size: 0.9em;
+    }
+
+    .item-quantity {
+        font-size: 0.9em;
+    }
+
+    .item-size, .item-milk-type, .item-decaf, .item-hot-or-cold {
+        color: lighten(#1C2024, 30%);
+        font-size: 0.9em;
+        padding-left: 1.7em;
+    }
+}

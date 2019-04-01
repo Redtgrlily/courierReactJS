@@ -1,0 +1,29 @@
+.nav-container {
+    width: 100%;
+    height: 3em;
+    background: #40B284;
+    text-align: center;
+    padding-top: 1em;
+
+    .nav-icons {
+        width: 20em;
+        margin: 0 auto;
+
+        .fa-history, .fa-tachometer {
+            text-align: center;
+            color: #fff;
+
+            &:hover {
+                color: #efefef;
+                cursor: pointer;
+            }
+        }
+
+        .fa-tachometer {
+            padding-right: 1em;
+        }
+
+    }
+
+
+}

@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '5'
+install:
+- npm install
+script:
+- NODE_ENV=production webpack -p
+deploy:
+  skip_cleanup: true
+  provider: heroku
+  api_key:
+    secure: apeTsGpb5eOFlzH3nXMa4zye1177UODfo1X6Xk8SD0e2lodTvUrg4Hx1iYTGFIAvdyk5/LzqiwVk0OdJayhzzpxck1QDPIeQGKiPQu0Ek+1GuZUFjeCYHLEOYb6LWAEGwOiQiA+a+jepRaOj9dvztB4K0iGKG0mUqGvRfQJgDyQ7ahmlLIkJ5AtKcQueeSupEmcxL7hPzk3Zok8ofaxo89Z4iq5JqZCmwWk780ZR9WPDCj/cLt5khsY1KAEWXmzlQdIFEYsx0/RYuyaqkCI8EpRPcbHzQ0vg6tQn1QlS8DRl/brpw5yDRB0d/6Ewk+FZQMgJHCNZPIQmJ+M+3OAqeJw8AStxRD28Rv2vx+RbOBponeqbsDMd1L7/sZIQzPvEvL+UvkiiXxsl1ejmtG3XEnabKWazkgnml4k+dmw/kmKsMhs8xXoaBVD36VVBzSGb6KYdvd3tAJ33UuirMJVH6hQitK0nzUGYd3YE9MmtByCa8poi2Ex4sPFpSJvwTgXZMULJ6KrPWoW0psYFzoTQaSRTBzOFvuB2Ksw5nJJt02I4NBFktt0LnK4P5h/nZrtKUIaNZrkgvJWPlxMD81ijgxkSrE1SynlmT+08xGpseosmF+fz8VZ3FeCK9tWiH9oLVHyf9JsnHRqz+i+HIIqxRm6o7AomJWUPlsCjqnqiNsM=
+  app:
+    master: gomocha
+  on:
+    repo: amituuush/gomocha

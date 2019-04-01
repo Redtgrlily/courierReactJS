@@ -1,0 +1,109 @@
+.dashboard-container {
+    margin-left: 0em;
+    margin-top: 4em;
+
+    .title-cover {
+        h1 {
+            color: #333333;
+        }
+    }
+
+    .start-button-wrap {
+        display: block;
+        text-align: center;
+        margin: 1em auto 3em auto;
+
+        button.start-button {
+            background: #3FB083;
+            margin: 0em;
+            padding: 1.5em 3em;
+            font-size: 1.75em;
+
+            &:hover {
+                background: lighten(#3FB083, 3%);
+            }
+        }
+
+        .fa-coffee {
+            margin-right: 0.35em;
+        }
+    }
+
+    .dashboard-divider {
+        width: 100%;
+        height: 2px;
+        background: #BDBEC1;
+        margin: 5em auto 0 auto;
+    }
+
+    h2.how-it-works {
+        text-align: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        color: #333333;
+    }
+}
+
+
+.dash-landing-icon-wrap {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+    .how-it-works {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+
+    .dash-landing-icon {
+        display: block;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 1.2em;
+        }
+    }
+
+    img {
+        width: 8em;
+    }
+
+    h2 {
+        margin-bottom: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 685px) {
+
+    .dash-landing-icon-wrap {
+        margin-bottom: 2em;
+        text-align: center;
+
+        .dash-landing-icon {
+            display: inline-block;
+            width: 33%;
+            text-align: center;
+
+            img {
+                width: 40%;
+            }
+
+            h2 {
+                text-align: center;
+            }
+        }
+
+        .dash-landing-icon-3 {
+            h2 {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .dashboard-container {
+        margin-top: 0em;
+        margin-left: 5em;
+    }
+}

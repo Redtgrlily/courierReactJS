@@ -1,0 +1,41 @@
+.order-total-table td {
+    padding: 0.4em 0.7em;
+    border-bottom: 1px solid #E4E4E4;
+    text-align: left;
+    color: #333;
+}
+
+.order-total-table tr {
+
+}
+
+tr.order-total-row {
+
+    td {
+        p {
+            margin: 0em 0em 0.25em 0em;
+        }
+    }
+
+    .delete-item {
+        color: #E2514E;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    &:hover {
+
+        .delete-item {
+            display: inline-block;
+        }
+    }
+}
+
+.delete-button {
+
+    &:hover {
+        .fa-times {
+                color: lighten(#E2514E, 15%);
+        }
+    }
+}
