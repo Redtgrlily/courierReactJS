@@ -1,0 +1,73 @@
+.custom-order-container {
+    margin-left: 0em;
+    margin-top: 4em;
+    padding-right: 0.4em;
+
+    .custom-order-view-wrap {
+        margin-bottom: 3em;
+    }
+
+    .userProgress {
+        position: relative;
+        width: 100%;
+        height: 30px;
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 0 auto;
+        border: 1px solid #E4E4E4;
+    }
+
+    #twoOfFive {
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        background: #3FB083;
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    .order-total-container {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .custom-order-container {
+
+        .userProgress {
+            width: 25em;
+        }
+
+        .custom-order-view-wrap {
+
+        }
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .custom-order-container {
+        margin-left: 2.5em;
+
+        .custom-order-view-wrap {
+            position: relative;
+            width: 100%;
+
+            .menu-form-container {
+                float: left;
+            }
+
+            .order-total-container {
+                position: fixed;
+                right: 1em;
+                width: 18em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .custom-order-container {
+        margin-top: 0em;
+        margin-left: 5em;
+    }
+}

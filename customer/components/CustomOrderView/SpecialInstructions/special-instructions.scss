@@ -1,0 +1,20 @@
+#special-instructions {
+    margin-top: 2em;
+
+    textarea {
+        border: 1px solid #E4E4E4;
+        padding: 0.5em;
+        width: 16.9em;
+        font-size: 1em;
+
+        &:focus {
+            border: 2px solid #3FB083;
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #special-instructions {
+        margin: 0.5em auto 0em auto;
+    }
+}

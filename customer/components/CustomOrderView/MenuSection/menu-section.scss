@@ -1,0 +1,60 @@
+.divider {
+    width: 100%;
+    border-bottom: 1px solid #333333;
+}
+
+.menu-section {
+    color: #333333;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .menu-section {
+        width: 21em;
+        margin: 0em auto 2.5em auto;
+
+        &:nth-child(odd) {
+            margin-left: 4em;
+        }
+
+        &:nth-child(even) {
+            margin-left: 4em;
+        }
+    }
+}
+
+@media only screen and (max-width: 599px) {
+
+    .menu-section {
+        width: 95%;
+        margin: 0em auto 2.5em auto;
+    }
+}
+
+@media only screen and (min-width: 1160px) {
+    .menu-section {
+        display: inline-block;
+
+        &:nth-child(odd) {
+            margin-left: 3.7em;
+            margin-right: 1em;
+        }
+
+        &:nth-child(even) {
+            margin-left: 0em;
+        }
+
+        &:nth-child(4) {
+            position: relative;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .menu-section {
+
+        &:nth-child(even) {
+            margin-right: 21em;
+        }
+    }
+}
