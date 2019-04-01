@@ -17,7 +17,7 @@ var Footer = React.createClass({
                     <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                     <img src="img/gomocha-logo-sml.png" />
                     <p className="footer-text footer-text-1">About GoMocha</p>
-                    <p className="footer-text">GoMocha Blog</p>
+                    <p className="footer-text">Cause our team is awesome</p>
                     <p className="footer-text">Privacy Policy</p>
                     <p className="footer-text">Terms and Conditions</p>
                     <p className="footer-copyright">©2016 GoMocha, Inc.</p>
